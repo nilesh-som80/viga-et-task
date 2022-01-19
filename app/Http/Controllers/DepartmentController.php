@@ -16,7 +16,7 @@ class DepartmentController extends Controller
     public function index()
     {
         return Department::leftJoin("assets", "assets.id", "=", "departments.asset")
-        ->select("projects.id","departments.name as department_name","assets.name as asset_name")
+        ->select("departments.id","departments.name as department_name","assets.name as asset_name")
         ->get();
     }
 
