@@ -74,7 +74,7 @@ from the entire database.
 #### delete an asset
 
 ```http
-  DELETE https://evening-waters-28547.herokuapp.com/api/asset/${id}
+  DELETE https://evening-waters-28547.herokuapp.com/api/asset/{id}
 ```
 
 | Parameter | Type     | Description                       |
@@ -84,7 +84,7 @@ from the entire database.
 #### delete an department
 
 ```http
-  DELETE https://evening-waters-28547.herokuapp.com/api/department/${id}
+  DELETE https://evening-waters-28547.herokuapp.com/api/department/{id}
 ```
 
 | Parameter | Type     | Description                       |
@@ -94,7 +94,7 @@ from the entire database.
 #### delete an project
 
 ```http
-  DELETE https://evening-waters-28547.herokuapp.com/api/project/${id}
+  DELETE https://evening-waters-28547.herokuapp.com/api/project/{id}
 ```
 
 | Parameter | Type     | Description                       |
