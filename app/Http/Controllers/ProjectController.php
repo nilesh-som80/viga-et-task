@@ -15,7 +15,12 @@ class ProjectController extends Controller
      */
     public function index()
     {
-        return response()->json(Project::all(),200);
+        $project = Project::leftJoin("departments","departments.id","=","projects.department")
+        ->leftJoin("assets","assets.id","=","departments.id")
+        ->select("projects.name as project_name","departments.name as department_name","assets.name as asset_name")
+        ->get();
+
+        return response()->json($project,200);
     }
 
     /**
