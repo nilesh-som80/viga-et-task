@@ -102,14 +102,5 @@ from the entire database.
 | `id`      | `string` | **Required**. Id of project to delete |
 
 
-## Screenshots
-
-![App Screenshot]("Screenshot 2022-01-19 220453.jpg")
-![App Screenshot]("Screenshot 2022-01-19 220628.jpg")
-![App Screenshot]("Screenshot 2022-01-19 220758.jpg")
-![App Screenshot]("Screenshot 2022-01-19 220958.jpg")
-![App Screenshot]("Screenshot 2022-01-19 221106.jpg")
-![App Screenshot]("Screenshot 2022-01-19 221154.jpg")
-![App Screenshot]("Screenshot 2022-01-19 221245.jpg")
 
 
