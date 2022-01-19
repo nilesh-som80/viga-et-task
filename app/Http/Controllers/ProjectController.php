@@ -17,7 +17,7 @@ class ProjectController extends Controller
     {
         $project = Project::leftJoin("departments","departments.id","=","projects.department")
         ->leftJoin("assets","assets.id","=","departments.id")
-        ->select("projects.name as project_name","departments.name as department_name","assets.name as asset_name")
+        ->select("projects.id","projects.name as project_name","departments.name as department_name","assets.name as asset_name")
         ->get();
 
         return response()->json($project,200);
